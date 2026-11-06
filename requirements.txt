@@ -1,9 +1,9 @@
 streamlit>=1.38
 opencv-python>=4.10
 Pillow>=10.0
-numpy>=1.26
-torch>=2.2
-torchvision>=0.17
-transformers>=4.45
+numpy>=1.26,<2.0
+torch>=2.2,<2.3
+torchvision>=0.17,<0.18
+transformers>=4.45,<5
 safetensors>=0.4
-facenet-pytorch>=2.6
+facenet-pytorch==2.6.0
